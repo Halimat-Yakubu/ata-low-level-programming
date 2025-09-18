@@ -1,0 +1,2 @@
+The linker is used during compilation to link multiple object files into a single executable file.
+The loader is used at run time to assign the file a location in memory, which is where the term "loader" comes from.
