@@ -1,0 +1,2 @@
+error: expected ';' before 'return'
+This above is known as a syntax error. The ';' indicates the end of a statement in C programming language. Without it, the compiler cannot correctly parse or understand the intended structure of the code.
