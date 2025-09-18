@@ -1,0 +1,2 @@
+Most programs today are written in high level languages like Java and C with easy to understand syntax. 
+Because Computers only understand 0s and 1s (machine language), Compilers exist to translate high level "source codes" to machine language "object codes"
