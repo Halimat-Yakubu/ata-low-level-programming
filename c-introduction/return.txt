@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("My name is Halimat\n");
+    return 1;
+}
+
+The code ran as usual, giving the desired output. I did some research and what I understood is this;
+The main function usually has its return value set to 0 because technically, it is not returning a value but rather its a "housing function" for the rest of the code. Therefore, a return value of 0 simply tells the operating system that the program ran successfully without any problems, while return 1 (or any non-zero number) is like saying, "Something went wrong." The program still finishes, but the non-zero code is a signal to the operating system or any other program that ran it that there was an error or a specific issue. 
+
+To the user, there is often no visible difference. The program simply closes in both cases. 
+But for someone writing a script to run programs, the return value is crucial. They can check if the program returned a 0 or a 1 and decide what to do next. 
