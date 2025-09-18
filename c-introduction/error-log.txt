@@ -1,0 +1,11 @@
+  practice.c: In function 'main':
+practice.c:5:5: error: expected declaration specifiers before 'printf'
+     printf("Hello, World");
+     ^~~~~~
+practice.c:6:1: error: expected declaration specifiers before 'return'
+ return 0;
+ ^~~~~~
+practice.c:7:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+practice.c:7:1: error: expected '{' at end of input
