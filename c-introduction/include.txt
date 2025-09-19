@@ -1,0 +1,3 @@
+<include stdio.h> : using angle brackets to include a header file simply tells the preprocessor to search for the file in the standard system header directories. Beacause the angle brackets signify that whatever file you are looking for (stdio.h in this case) is stored in a built-in library for headers.
+
+"include stdio.h" : double quotes tell the preprocessesor that you are looking for a user-defined header file (e.g myheader.h). It searches for the file in the current working directory first, if the file isn't found, then it searches the standard system header libraries.
