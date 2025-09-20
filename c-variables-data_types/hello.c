@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(){
-  int hello = "Hello!";
+  printf("Hello, C Programming!");
+  // This prints out the text Hello, C Programming as output.
+  /*C is still of relevance today, seeing as its been used to develop many of 
+  the software systems we use in our daily lives*/
   return 0;
 }
