@@ -1,0 +1,7 @@
+1. Preprocessing: This stage handles pre-processor directives (like #include) by including other source files, so it generates ultimately pre-processed code. The result is a program written purely in C.
+
+2. Compilation: Here, the compiler breaks down the pure C code, checking to see if the syntax and semantics are good to go. It converts the code into assembly language instructions, which are then passed to the assembler.
+
+3. Assembling: The assembly language code is translated to a form that is understandable by the computer (machine code) and it is saved as an object code file.
+
+4. Linking: The linker takes the object code file along with any necessary library files and combines them to create a single, final executable machine code file.
