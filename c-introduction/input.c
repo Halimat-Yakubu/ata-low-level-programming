@@ -1,9 +1,13 @@
 #include <stdio.h>
- int main()
- {
-     int age;
-     printf("Enter your age: ");
-     scanf("%d", &age);
 
-     return 0;
- }
+int main()
+{
+    // Create a string
+    char firstName[30];
+
+    printf("Enter your first name and press enter: \n");
+    scanf("%s", firstName);
+    printf("Hello %s", firstName, "!");
+
+    return 0;
+}
