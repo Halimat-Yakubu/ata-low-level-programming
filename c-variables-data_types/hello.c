@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
   printf("Hello, C Programming!"); // This prints out the text 'Hello, C Programming!' as output.
   
   /*C is still of relevance today, seeing as its been used to develop many of 
