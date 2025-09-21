@@ -1,0 +1,3 @@
+The symbol " // " signifies a single line comment while " /* … */ " signifies a multi-line comment.
+We need keywords in a programming language in order to be able to carry out specifice commands and structure our programs in a specific way.
+Three examples of C keywords: char, int, double.
