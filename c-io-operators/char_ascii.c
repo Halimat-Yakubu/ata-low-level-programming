@@ -5,7 +5,7 @@ int main() {
     printf("Enter a character: ");
     scanf("%c", &character);
   
-    printf("The character '%c' has an ASCII value of %d.\n", character, character);
+    printf("The ASCII value of '%c' is %d.\n", character, character);
 
     return 0;
 }
