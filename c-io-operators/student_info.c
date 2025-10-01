@@ -24,7 +24,7 @@ int main() {
     scanf(" %c", &grade);
 
     // Display all the details in a single sentence
-    printf("Hello, %s. You are %d years old and your grade is %c.\n", name, age, grade);
+    printf("Hello, %s!  Your grade is %c and you are %d years old.\n", name, age, grade);
 
     return 0;
 }
