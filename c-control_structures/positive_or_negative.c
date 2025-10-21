@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main()
@@ -17,9 +16,13 @@ int main()
         printf("%d is a negative number.\n", num);
     }
 
+    else if (num == 0) {
+        printf("%d is zero.\n", num);
+    }
+        
     else
     {
-        printf("%d is zero.\n", num);
+       printf("Not a valid number.") 
     }
 
     return 0;
