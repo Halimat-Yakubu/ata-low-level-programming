@@ -13,7 +13,7 @@ int main() {
         sum += i;
     }
 
-    printf("Sum of natural numbers up to %d is %d.\n", n, sum);
+    printf("Sum of natural numbers up to %d is: %d.\n", n, sum);
   
     return 0;
 }
