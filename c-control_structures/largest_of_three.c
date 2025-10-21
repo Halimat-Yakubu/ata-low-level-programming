@@ -10,17 +10,17 @@ int main() {
 
     if (num1 > num2 && num1 > num3)
     {
-        printf("%d is the largest number.", num1);
+        printf("%d is the largest number.\n", num1);
     }
 
     else if (num2 > num1 && num2 > num3)
     {
-        printf("%d is the largest number.", num2);
+        printf("%d is the largest number.\n", num2);
     }
 
     else
     {
-        printf("%d is the largest number.", num3);
+        printf("%d is the largest number.\n", num3);
     }
 
     return 0;
