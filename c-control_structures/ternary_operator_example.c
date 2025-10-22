@@ -12,8 +12,8 @@ int main() {
         return 1;
     }
 
-    result_message = (number > 0) ? "Positive" : "Non-positive";
-    printf("%d is a positive number.%s\n", number, result_message);
+    result_message = (number > 0) ? "positive" : "negative";
+    printf("%d is a %s number\n", number, result_message);
 
     return 0;
 }
