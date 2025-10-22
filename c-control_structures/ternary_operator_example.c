@@ -13,7 +13,7 @@ int main() {
     }
 
     result_message = (number > 0) ? "positive" : "negative";
-    printf("%d is a %s number\n", number, result_message);
+    printf("%d is a %s number.\n", number, result_message);
 
     return 0;
 }
