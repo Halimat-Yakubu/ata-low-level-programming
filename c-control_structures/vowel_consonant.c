@@ -12,9 +12,9 @@ int main() {
 
     if (lower_c >= 'a' && lower_c <= 'z') {
         if (lower_c == 'a' || lower_c == 'e' || lower_c == 'i' || lower_c == 'o' || lower_c == 'u') {
-            printf("%c is a Vowel.\n", c);
+            printf("'%c' is a Vowel.\n", c);
         } else {
-            printf("%c is a Consonant.\n", c);
+            printf("%'c' is a Consonant.\n", c);
         }
         
     } else {
