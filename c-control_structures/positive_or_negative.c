@@ -22,7 +22,7 @@ int main()
         
     else
     {
-       printf("Not a valid number.") 
+       printf("Not a valid number.");
     }
 
     return 0;
