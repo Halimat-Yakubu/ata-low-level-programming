@@ -7,9 +7,12 @@ int main() {
 
     printf("Enter a positive integer: ");
 
-    if (scanf("%d", &number) != 1 || number <= 0) {
-        printf("Invalid input. Please enter a positive integer greater than 0.\n");
-        return 1;
+    if (scanf("%d", &number) == 0) {
+        printf("Enter a positive integer: 0 is not a prime number.\n");
+    }
+
+    else if (scanf("%d", &number) < 0) {
+        printf("Enter a positive integer: %d is not a prime number.\n", number);
     }
 
     if (number <= 1) {
