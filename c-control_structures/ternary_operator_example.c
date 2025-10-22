@@ -8,7 +8,7 @@ int main() {
     printf("Enter an integer: ");
 
     if (scanf("%d", &number) <= 0) {
-        printf("%d is a non-positive integer.\n", number);
+        printf("%d is a non-positive number.\n", number);
     }
 
     result_message = (number > 0) ? "positive" : "negative";
