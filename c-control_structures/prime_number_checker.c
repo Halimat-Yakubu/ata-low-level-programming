@@ -28,7 +28,7 @@ int main() {
     if (is_prime) {
         printf("%d is a prime number.\n", number);
     } else {
-        printf("%d is NOT a prime number.\n", number);
+        printf("%d is not a prime number.\n", number);
     }
 
     return 0;
