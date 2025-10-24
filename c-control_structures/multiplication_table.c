@@ -9,7 +9,7 @@ int main() {
     printf("Enter an integer (n): ");
     scanf("%d", &n);
 
-    printf("Multiplication table of %d\n", n);
+    printf("Multiplication table of %d:\n", n);
     for (i = 1; i <= 10; i++) {
     int result = n * i;
 
