@@ -5,7 +5,7 @@ int main() {
     int num2;
     int num3;
 
-    printf("Enter three numbers: ");
+    printf("Enter three integers: ");
     scanf("%d %d %d", &num1, &num2, &num3);
 
     if (num1 > num2 && num1 > num3)
