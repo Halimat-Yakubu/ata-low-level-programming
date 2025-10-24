@@ -14,7 +14,7 @@ int main() {
         if (lower_c == 'a' || lower_c == 'e' || lower_c == 'i' || lower_c == 'o' || lower_c == 'u') {
             printf("'%c' is a vowel.\n", c);
         } else {
-            printf("%'c' is a consonant.\n", c);
+            printf("'%c' is a consonant.\n", c);
         }
         
     } else {
