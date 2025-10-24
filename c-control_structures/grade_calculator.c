@@ -18,7 +18,7 @@ int main()
         printf("Your grade is %c\n", userGrade);
     }
 
-    else if (userScore == 61 && userScore <= 84)
+    else if (userScore >= 61 && userScore <= 84)
     {
         userGrade = 'C';
         printf("Your grade is %c\n", userGrade);
