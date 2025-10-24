@@ -19,7 +19,7 @@ int main() {
         i--; 
     }
 
-    printf("The factorial of %d is %lld.\n", num, factorial);
+    printf("Factorial of %d is: %lld.\n", num, factorial);
 
     return 0;
 }
