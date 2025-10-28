@@ -4,15 +4,15 @@
 int add(int a, int b);
 
 int main() {
-    int num1, num2, result;
+    int a, b, result;
 
     printf("Enter the first integer: \n");
-    scanf("%d", &num1);
+    scanf("%d", &a);
 
     printf("Enter the second integer: \n");
-    scanf("%d", &num2);
+    scanf("%d", &b);
 
-    result = num1 + num2;
+    result = add(int a, int b);
 
     printf("Result of addition: %d\n", result);
 
