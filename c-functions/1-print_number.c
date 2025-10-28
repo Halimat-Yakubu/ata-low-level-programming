@@ -14,6 +14,6 @@ int main() {
 }
 
 void print_number(int num) {
-    printf("The number you is: %d\n", num);
+    printf("The number is: %d\n", num);
 }
 
