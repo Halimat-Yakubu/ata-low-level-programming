@@ -5,10 +5,10 @@ void print_sum(int a, int b);
 int main() {
     int num1, num2;
 
-    printf("Enter the first integer: ");
+    printf("Enter the first integer: \n");
     scanf("%d", &num1);
 
-    printf("Enter the second integer: ");
+    printf("Enter the second integer: \n");
     scanf("%d", &num2);
 
     print_sum(num1, num2);
