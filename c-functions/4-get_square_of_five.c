@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <math.h>  
 
-int get_square_of_five();
+int get_square_of_five(){
+
+    double square = pow(5, 2); 
+    return (int)square;         
+ }
 
 int main() {
     int result;
@@ -14,8 +18,8 @@ int main() {
 }
 
 
-int get_square_of_five() {
-    double square = pow(5, 2); 
-    return (int)square;         
- }
+//int get_square_of_five() {
+   // double square = pow(5, 2); 
+    //return (int)square;         
+// }
 
