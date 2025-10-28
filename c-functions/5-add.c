@@ -6,13 +6,13 @@ int add(int a, int b);
 int main() {
     int num1, num2, result;
 
-    printf("Enter the first integer: ");
+    printf("Enter the first integer: \n");
     scanf("%d", &num1);
 
-    printf("Enter the second integer: ");
+    printf("Enter the second integer: \n");
     scanf("%d", &num2);
 
-    result = add(num1, num2);
+    result = num1 + num2;
 
     printf("Result of addition: %d\n", result);
 
