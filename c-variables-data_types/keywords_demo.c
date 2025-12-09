@@ -4,6 +4,7 @@ int main()
 {
     int num;
     char option;
+    float extra;
     printf("Enter a number: ");
     scanf("%d", &num);
     
