@@ -2,18 +2,24 @@
 
 int main()
 {
-    int test = 5;
-    float mul = 2.5;
-
-    if (test == 5)
-    {
-        printf("Keywords are powerful");
+    int num;
+    char option;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    if (num == 5) {
+        option = 'A';
+        printf("%c. You got the special number!", option);
     }
-
-    else
-    {
-        printf(" ");
+    
+    else if(num < 5){
+        option = 'B';
+        printf("%c. Too low, try again.", option);
     }
-
+    
+    else {
+        option = 'C';
+        printf("%c. Too high, try again.", option);
+    }
     return 0;
 }
