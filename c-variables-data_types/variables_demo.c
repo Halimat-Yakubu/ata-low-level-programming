@@ -2,11 +2,10 @@
 
 int main()
 {
-    int age = 13;
-    float height = 4.9;
-    char grade = 'B';
-
-    printf("Age: %d", age);
-    printf("Height: %f", height);
-    printf("Grade: %c", grade);
+    int age = 20;
+    float height = 5.9;
+    char grade = 'A';
+    
+    printf ("Age: %d, Height: %f, Grade: %c", age, height, grade);
+    return 0;
 }
