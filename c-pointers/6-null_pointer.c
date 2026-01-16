@@ -4,7 +4,7 @@ int main() {
     int *ptr = NULL;
     
     if (ptr == NULL) {
-        printf("ptr is NULL. Cannot dereference.\n");
+        printf("ptr is NULL.\n");
     } else {
         printf("ptr is NOT NULL. Value pointed to by ptr: %d\n", *ptr);
     }
@@ -17,7 +17,7 @@ int main() {
     if (ptr == NULL) {
         printf("ptr is NULL. Cannot dereference.\n");
     } else {
-        printf("ptr is NOT NULL.\nValue pointed to by ptr: %d\n", *ptr);
+        printf("ptr is NOT NULL. Value pointed to by ptr: %d\n", *ptr);
     }
     
     return 0;
